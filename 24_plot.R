@@ -1,0 +1,5 @@
+rm(list=ls())
+v <- seq(0,5,by=0.2)
+r_v <- round(v)
+plot(1:26,v)
+lines(1:26,r_v)
